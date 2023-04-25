@@ -43,7 +43,7 @@ class ProductManager {
 
     deleteProductById = async(id)=>{
         let result3 = await this.readProducts();
-        let productFilter = result.filter(products => products.id != id)
+        let productFilter = result3.filter(products => products.id != id)
         await fs.promises.writeFile(this.path, JSON.stringify(productFilter));
         console.log("El producto a sido eliminado correctamente")
     };
