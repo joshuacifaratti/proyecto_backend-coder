@@ -1,9 +1,9 @@
 {
   "name": "proyecto_backend",
   "version": "1.0.0",
-  "main": "product-manager.js",
-  "scripts": {
-  },
+  "main": "src/app.js",
+  "scripts": {},
+  "start": "nodemon src/app.js",
   "keywords": [],
   "author": "",
   "license": "ISC",

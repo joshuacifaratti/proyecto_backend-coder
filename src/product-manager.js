@@ -2,7 +2,7 @@ const fs = require ('fs');
 
 class ProductManager {
     constructor() {
-        this.path = "./products.json"
+        this.path = './products.json'
         this.products = []
     };
 
@@ -61,17 +61,16 @@ class ProductManager {
     
     
     const products = new ProductManager
+     //products.getProducts()
+    //products.addProduct("mandarina","las mejores","1000","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","29","37","29")
+    //products.addProduct("manzana","bien dulces","800","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","15","46","15")
+    //products.addProduct("banana","ideal para licuado","1200","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","17","28","17")
+    //products.addProduct("pera","dulces y deliciosas","900","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","45","7","45")
     
-    products.getProducts()
-     products.addProduct("mandarina","las mejores","1000","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","29","37","29")
-    //  products.addProduct("manzana","bien dulces","800","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","15","46","15")
-    //  products.addProduct("banana","ideal para licuado","1200","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","17","28","17")
-    //  products.addProduct("pera","dulces y deliciosas","900","https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","45","7","45")
-    
-    //  products.getProductsById(29)
-    //  products.deleteProductById(17)
+      //products.getProductsById(29)
+      //products.deleteProductById(17)
 
-    // products.updateProducts({
+     //products.updateProducts({
     //     title: 'mandarina',
     //     description: 'las mejores',
     //     price: '1000',
@@ -80,3 +79,5 @@ class ProductManager {
     //     stock: '37',
     //     id: 29
     // });
+
+    module.exports = ProductManager;
