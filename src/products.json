@@ -1,11 +1,1 @@
-[
-  {
-    "title": "mandarina",
-    "description": "las mejores",
-    "price": "1000",
-    "thumbnail": "https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg",
-    "code": "29",
-    "stock": "37",
-    "id": 1
-  }
-]
+[{"title":"mandarina","description":"las mejores","price":"1000","thumbnail":"https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","code":"29","stock":"37","id":1},{"title":"manzana","description":"bien dulces","price":"800","thumbnail":"https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","code":"15","stock":"46","id":2},{"title":"banana","description":"ideal para licuado","price":"1200","thumbnail":"https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","code":"17","stock":"28","id":3},{"title":"pera","description":"dulces y deliciosas","price":"900","thumbnail":"https://pbs.twimg.com/media/FcF_UzhXgAAZQm8.jpg","code":"45","stock":"7","id":4}]

@@ -2,7 +2,7 @@ const fs = require ('fs');
 
 class ProductManager {
     constructor() {
-        this.path = './products.json'
+        this.path = './src/products.json'
         this.products = []
     };
 
